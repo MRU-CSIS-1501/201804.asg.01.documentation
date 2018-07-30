@@ -4,7 +4,7 @@
 
 ### Before you begin
 
-Make sure you download the font [DejaVu Sans Mono](https://www.fontsquirrel.com/fonts/dejavu-sans-mono]) and use it as your font in when working in KiTTY (Windows) or your terminal editor (Mac or Linux). This font has a much wider support of Unicode characters than the default fonts typically found.
+Make sure you download the font [DejaVu Sans Mono](https://www.fontsquirrel.com/fonts/dejavu-sans-mono) and use it as your font in when working in KiTTY (Windows) or your terminal editor (Mac or Linux). This font has a much wider support of Unicode characters than the default fonts typically found.
 
 If you are working in KiTTY, you will have the best luck in finding instructions online if you use **putty** instead of **kitty** in your search for how to do this.
 
