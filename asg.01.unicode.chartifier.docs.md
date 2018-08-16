@@ -40,6 +40,10 @@ Unicode code point: <b>U+0057</b>
 ┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━┛
 </pre>
 
+> Commentary on Run 1
+>
+> - Note that the code point entered by the user becomes the middle entry in the table.
+
 **Example Run 2**
 
 <pre>
@@ -50,6 +54,26 @@ Unicode code point: <b>U+20A4</b>
 ┃   ₣    ┃   ₤    ┃   ₥    ┃
 ┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━┛
  </pre>
+
+> Commentary on Run 2
+>
+> - Here we see that the code points are such that we're no longer displaying characters in the Basic Latin block.
+
+**Example Run 2**
+
+<pre>
+Unicode code point: U+1F6A0
+┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━┓
+┃ U+1F69F ┃ U+1F6A0 ┃ U+1F6A1 ┃
+┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━┫
+┃       ┃       ┃       ┃
+┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━┛
+ </pre>
+
+> Commentary on Run 3
+>
+> - Here's what you see if you go into a block that your font can't represent - you get these lovely squares...your computer's way of saying "I don't know what the hell these are - here's a box for you instead".
+> - Note that we've kinda messed up our table alignment because the number of characters in the code points is large. We're not going to worry about this ... but it goes to show you that there's **always** something that can go wrong when you're programming!
 
 #### Instructions
 
