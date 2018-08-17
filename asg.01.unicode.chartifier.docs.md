@@ -59,7 +59,7 @@ Unicode code point: <b>U+20A4</b>
 >
 > - Here we see that the code points are such that we're no longer displaying characters in the Basic Latin block.
 
-**Example Run 2**
+**Example Run 3**
 
 <pre>
 Unicode code point: U+1F6A0
@@ -72,8 +72,8 @@ Unicode code point: U+1F6A0
 
 > Commentary on Run 3
 >
-> - Here's what you see if you go into a block that your font can't represent - you get these lovely squares...your computer's way of saying "I don't know what the hell these are - here's a box for you instead".
-> - Note that we've kinda messed up our table alignment because the number of characters in the code points is large. We're not going to worry about this ... but it goes to show you that there's **always** something that can go wrong when you're programming!
+> - Here's what you see if you go into a block that your font can't represent - you get these lovely squares...your computer's way of saying "I don't know how the hell to display this character for you - here's a box for you instead".
+> - Note that we've kinda messed up our table alignment because the number of characters in the code points is large. We're not going to worry about this ... but it goes to show you that there's **always** something that can go wrong when you're programming! Learning how to anticipate these problems in advance is a skill you will develop with experience.
 
 #### Instructions
 
@@ -85,48 +85,14 @@ You have been provided with a class called `UnicodeChartifier`. It has a number 
 For full marks, you **must**:
 
 1.  Code the 2 methods above so that they behave as documented.
+    - You must use `String.format` in `offsetCodePoint`.
 2.  Complete the `run` method so that when the program is run, it behaves as shown in the examples above.
-
-- You **must** use all of the provided methods (not just the stubbed ones) in your final solution.
-- You should try and make some other methods as well.
-
-3.  Create two well-named methods, one to print out the part of the table in the output that has the Unicode code points in it, and the other that prints out the part of the table that has the corresponding Unicode characters.
-
-- you must use `System.out.printf` in these methods
-- you must use the `┃`character (U+2503) to draw the vertical pipes in these methods
+    - You **must** use all of the provided methods (not just the stubbed ones) in your final solution.
+    - You should try and make some other methods as well.
+    - You must use `System.out.printf` at least once and `System.out.println` at least once.
+    - You must use the `┃`character (U+2503) to draw the vertical pipes in these methods - don't use the `|` character found on the keyboard.
 
 #### Things to ponder
 
 - The user will enter a code point as a String...but how are you going to turn this into a number? You not only have to somehow get to the part of the String that's _after_ the `U+`, but then also somehow turn **that** into an integer....
 - Working with `String.format` and `System.out.printf` will be weird at first. Be prepared to look things up in your text book or do some digging online to make things work properly.
-
----
-
-### Things you'll see
-
-- constants
-- variables
-- parameters
-- methods
-- `Scanner` (for input from keyboard)
-- `System.out.println`
-- value-returning methods (a.k.a. functions)
-- `String.format`
-- `System.out.format/printf`
-
-### Things you'll do
-
-- compile your code
-- fix syntax and logic errors
-- debug
-- read documentation
-- read other people's code
-- run automated tests
-- run static code checkers
-- break problems into small chunks (a.k.a. functional decomposition)
-- get keyboard input
-
-### Collateral Learning Opportunities
-
-- installing a new font
-- installing Kitty (or using Terminal on a Mac)
