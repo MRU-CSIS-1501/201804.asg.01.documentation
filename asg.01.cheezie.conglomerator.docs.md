@@ -4,7 +4,7 @@
 
 ### Preamble
 
-I was eating some Cheezies&reg; the other day.  They were so delicious that this assignment popped out.
+I was eating some Cheezies&reg; the other day. They were so delicious that this assignment popped out.
 
 Imagine that you're a particularly fastidious screenwriter who prides themselves on being numerically accurate in all that you do. You've been asked to write a screenplay for a "reimagining" of the film Frankenstein.
 
@@ -12,18 +12,20 @@ In the new film, the mad scientist creates, instead of a monster, a Device&reg; 
 
 Terrifying.
 
-To profit from the Device&reg;, the mad scientist wishes to sell those Cheezies&reg;.  Naturally, packaging is important.
+To profit from the Device&reg;, the mad scientist wishes to sell those Cheezies&reg;. Naturally, packaging is important.
 
 The scientist comes up with a packaging system: mainly, have their trusted assistant (Igor, of course) stuff individual Cheezies&reg; into bags, then bags into boxes, and then boxes onto pallets.
 
-- Each **bag** can hold *exactly* 117 individual Cheezies&reg;.
+- Each **bag** can hold _exactly_ 117 individual Cheezies&reg;.
 - A **box** can hold 32 bags.
 - A **pallet** can hold 12 boxes.
 
 You haven't decided on exactly how many Cheezies&reg; to use yet..but by Galookum, the number of bags, boxes, and pallets in the script will be **accurate**.
 
 ---
+
 ### What you're going to build
+
 You're going to make software that asks for the total number of Cheezies&reg; created by the Device&reg; and then spits back the riveting scene in the screenplay that involves Igor reporting the results of his inaugural packing.
 
 **Example Run 1:**
@@ -50,7 +52,6 @@ Why...why that's (thinks furiously for a moment)...that's...
 Excellent, Igor. That should keep those accursed peasants happy.
 </pre>
 
-
 **Example Run 2:**
 
 <pre>
@@ -75,7 +76,9 @@ Excellent, Igor. That should keep those accursed peasants happy.
 </pre>
 
 #### Instructions
+
 You have been provided with a class called `CheezieConglomerator`. It has 6 documented methods that are currently stubbed out :
+
 1. `numPallets`
 2. `totalNumBoxes`
 3. `totalNumBags`
@@ -84,6 +87,7 @@ You have been provided with a class called `CheezieConglomerator`. It has 6 docu
 6. `numLooseCheezies`
 
 To complete this challenge successfully, you **must**:
+
 1. Code the 6 methods given to you so that they behave as documented.
    - Don't panic - each of these methods should be just a single line of code!
 2. Complete the `run` method so that when the program is run, it behaves as shown in the examples above.
@@ -91,26 +95,3 @@ To complete this challenge successfully, you **must**:
    - Further methods might be a good idea.
 
 Look to the rubric for further guidance.
-
----
-### Things you'll see
-- constants
-- variables
-- parameters
-- methods
-- `Scanner` (for input from keyboard)
-- `System.out.println`
-- value-returning methods (a.k.a. functions)
-- `String.format` and/or `System.out.format/printf`
-- integer division (`/`) and integer remainder (`%`)
-
-### Things you'll do
-- compile your code
-- fix syntax and logic errors
-- debug
-- read documentation
-- read other people's code
-- run automated tests
-- run static code checkers
-- break problems into small chunks (a.k.a. functional decomposition)
-- get keyboard input

@@ -52,6 +52,7 @@ of the challenge you're working on.
 - value-returning methods (a.k.a. functions)
 - `String.format`
 - `System.out.format/printf`
+- integer division (`/`) and integer remainder (`%`)
 
 ### Things you'll do
 
