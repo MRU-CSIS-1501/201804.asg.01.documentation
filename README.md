@@ -2,26 +2,26 @@
 
 ## A few WARNINGS
 
-- For most of you, this is your first programming assignment - and even if
-  it's not, it's _extremely_ likely that it _is_ your first time to be
-  working in a command line environment. Because of this, you will likely
-  struggle mightily with this assignment, Budget your time wisely.
+- For most of you, this is your first programming assignment - and even if it's not, it's _extremely_ likely that it _is_ your first time to be working in a command line environment. Because of this, you will likely struggle mightily with this assignment. Budget your time wisely.
 
-- You will likely be frustrated with some of the quirks of working in
-  Emacs. Even things most people these days consider to be easy tasks -
-  like copy and pasting - are going to require you to learn some new skills.
-  Persevere. It will get easier - **but only with practice**.
+- You will likely be frustrated with some of the quirks of working in Emacs. Even things most consider to be easy tasks - like copy and pasting - are going to require you to learn some new skills. Persevere. It will get easier - **but only with practice**.
 
-- You might be dismayed at the amount of text in the challenge
-  descriptions below. It's there for a reason. Skim at your peril.
+- You might be dismayed at the amount of text in the challenge descriptions below. It's there for a reason. Skim at your peril.
 
-- You don't have to do the challenges in the order presented. Please feel
-  free to cherry pick.
+- You don't have to do the challenges in the order presented. Please feel free to cherry pick. That being said, the _Dog's Breakfast of Output_ is an easier place to start. Probably.
+
+## Before you begin
+
+If you plan on doing much development for this assignment on your own laptop or home computer, make sure you download the font [DejaVu Sans Mono](https://www.fontsquirrel.com/fonts/dejavu-sans-mono) and use it as your font when working in KiTTY (Windows) or your terminal editor (Mac or Linux). This font has a much wider support of Unicode characters than the default fonts typically found.
+
+If you are working in KiTTY, you will have the best luck in finding how to do this by searching for instructions online if you use **putty** instead of **kitty** in your search.
+
+If you're on a Mac, you'll want to include the word **terminal** in your search.
+
 
 ## How to check your work
 
-If you want to check whether your code is _behaving as expected_, you can
-run the command **make tests** from the directory of the challenge you're
+If you want to check whether your code is _behaving as expected_, you can run the command **make tests** from the directory of the challenge you're
 working on.
 
 > Just because the given tests run green does **not** mean everything is
@@ -30,8 +30,7 @@ working on.
 > data to the csv files in the `tests/data` directory; just add additional
 > rows to the data already there.
 
-If you want to see whether your code is _following the coding standards for
-this course_, you can run the command **make style** from the directory
+If you want to see whether your code is _following the coding standards for this course_, you can run the command **make style** from the directory
 of the challenge you're working on.
 
 > There is some overlap between the two tools used to do this task, so
@@ -41,7 +40,7 @@ of the challenge you're working on.
 
 ---
 
-## Things you'll see
+### Things you'll see in this assignment
 
 - constants
 - variables
@@ -54,7 +53,7 @@ of the challenge you're working on.
 - `System.out.format/printf`
 - integer division (`/`) and integer remainder (`%`)
 
-### Things you'll do
+### Things you'll do in this assignment
 
 - compile your code
 - fix syntax and logic errors

@@ -2,16 +2,6 @@
 
 ## Challenge: Unicode Chartifier
 
-### Before you begin
-
-If you plan on doing much development for this assignment on your own laptop or home computer, make sure you download the font [DejaVu Sans Mono](https://www.fontsquirrel.com/fonts/dejavu-sans-mono) and use it as your font when working in KiTTY (Windows) or your terminal editor (Mac or Linux). This font has a much wider support of Unicode characters than the default fonts typically found.
-
-If you are working in KiTTY, you will have the best luck in finding how to do this by searching for instructions online if you use **putty** instead of **kitty** in your search.
-
-If you're on a Mac, you'll want to include the word **terminal** in your search.
-
----
-
 ### Preamble
 
 So there are a **lot** of Unicode characters. They are arranged into "blocks" - you can see them all at the very wonderful [unicode-table.com](https://www.fileformat.info/info/unicode/block/index.htm).
