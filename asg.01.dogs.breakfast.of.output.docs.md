@@ -1,6 +1,6 @@
 # Assignment 01
 
-## Challenge: Dogs Breakfast of Output
+## Challenge: Dog's Breakfast of Output
 
 ### Preamble
 
