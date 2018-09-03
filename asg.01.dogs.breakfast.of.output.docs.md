@@ -19,8 +19,12 @@ When you run this program, there is no user input; we just get console output:
 **Expected Console Output**
 
 <pre>
-***** print and println using concatenation *****
+***** print, println using concatenation *****
 The Algorithm March Reloaded: https://www.youtube.com/watch?v=jVMsHHFJX68
+
+***** println using concatenation vs. printf *****
+2019 is the year of the pig in the Chinese zodiac.
+2019 is the year of the pig in the Chinese zodiac.
 
 ***** leading zeroes, width *****
 0007
@@ -49,7 +53,7 @@ burrows
 > Commentary
 >
 > - Each section of output starts with a header (like `***** leading zeroes, width *****`)
-> - There is a blank line between each section.
+> - **There is a blank line between each section.**
 
 #### Instructions
 
