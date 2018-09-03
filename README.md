@@ -18,7 +18,6 @@ If you are working in KiTTY, you will have the best luck in finding how to do th
 
 If you're on a Mac, you'll want to include the word **terminal** in your search.
 
-
 ## How to check your work
 
 If you want to check whether your code is _behaving as expected_, you can run the command **make tests** from the directory of the challenge you're
@@ -30,7 +29,7 @@ working on.
 > data to the csv files in the `tests/data` directory; just add additional
 > rows to the data already there.
 
-If you want to see whether your code is _following the coding standards for this course_, you can run the command **make style** from the directory
+If you want to see whether your code is _following the coding standards for this course_, you can run the command **make style -i** from the directory
 of the challenge you're working on.
 
 > There is some overlap between the two tools used to do this task, so
