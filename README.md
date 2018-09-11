@@ -1,6 +1,7 @@
 # Assignment 01
 
 **DUE: September 27, 2018 @ 5:00PM**
+
 **WEIGHT: 4%**
 
 ## A few WARNINGS
