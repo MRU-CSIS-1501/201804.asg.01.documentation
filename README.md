@@ -24,7 +24,7 @@ If you're on a Mac, you'll want to include the word **terminal** in your search.
 
 You will be adding code to source files already created for you.
 
-Please copy the directory `/users/library/csis/comp1501/assignments/1.asg` to your home directory.
+Please copy the directory `/users/library/csis/comp1501/assignments/1.asg.jpratt` to your home directory.
 
 If you don't know how to do this, you can use the Linux command reference given to you in lab-00, or Google away.
 
