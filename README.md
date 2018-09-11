@@ -20,6 +20,14 @@ If you are working in KiTTY, you will have the best luck in finding how to do th
 
 If you're on a Mac, you'll want to include the word **terminal** in your search.
 
+## Getting the starting code
+
+You will be adding code to source files already created for you.
+
+Please copy the directory `/users/library/csis/comp1501/assignments/1.asg` to your home directory.
+
+If you don't know how to do this, you can use the Linux command reference given to you in lab-00, or Google away.
+
 ## How to check your work
 
 If you want to check whether your code is _behaving as expected_, you can run the command **make tests** from the directory of the challenge you're
