@@ -4,6 +4,8 @@
 
 **WEIGHT: 4%**
 
+**ANY QUESTIONS?** If you've registered for our Google Classroom, you can go to: https://classroom.google.com/u/1/c/MTUxMTUxMzg4MTFa/sa/MTUxMTUxMTUxNTZa/details
+
 ## A few WARNINGS
 
 - For most of you, this is your first programming assignment - and even if it's not, it's _extremely_ likely that it _is_ your first time to be working in a command line environment. Because of this, you will likely struggle mightily with this assignment. Budget your time wisely.
