@@ -4,7 +4,7 @@
 
 **WEIGHT: 4%**
 
-**ANY QUESTIONS?** If you've registered for our Google Classroom, you can go to: https://classroom.google.com/u/1/c/MTUxMTUxMzg4MTFa/sa/MTUxMTUxMTUxNTZa/details
+**ANY QUESTIONS?** Please post any questions to [Piazza](https://piazza.com/class/jm9cg39jrr21zs?cid=9#), ideally in the **assignment1** folder.
 
 ## A few WARNINGS
 
